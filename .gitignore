@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets - never commit
+.env
+.env.*
+
+# Build output, logs, archives, OS files
+dist/
+build/
+.next/
+*.log
+*.zip
+.DS_Store
+
+# Saved user responses (personal data)
+data/responses/
